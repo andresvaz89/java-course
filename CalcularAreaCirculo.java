@@ -17,3 +17,5 @@ public class CalcularAreaCirculo {
         System.out.println("El área de un círculo de radio " + radio + " es " + area);
     }
 }
+
+// ESTO ES UN COMENTARIO PARA QUE LO LEA ACACIA
