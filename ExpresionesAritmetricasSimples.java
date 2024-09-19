@@ -47,5 +47,4 @@ public class ExpresionesAritmetricasSimples {
         // Mostrar el resultado
         System.out.println("El resultado de " + num1 + " " + operador + " " + num2 + " es: " + resultado);
     }
-
 }
