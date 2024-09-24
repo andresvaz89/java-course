@@ -1,8 +1,9 @@
-import java.util.Scanner;
 import java.util.Random;
+import java.util.Scanner;
 
 
 public class AdivinaElNumero {
+    public static void main(String[] args) {
     Scanner scanner = new Scanner(System.in);
     Random random = new Random();
     int randomNum = random.nextInt(100); //sentencia para generar número aleatorio de 0 a 100
@@ -23,4 +24,5 @@ public class AdivinaElNumero {
     
     conteo++;
     System.out.println("¡Correcto! Lo has acertado en el intento nº " + conteo + ".");
+}
 }
