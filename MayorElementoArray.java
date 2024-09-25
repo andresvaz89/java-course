@@ -19,7 +19,7 @@ public class MayorElementoArray {
             array[i] = scanner.nextInt();
         }
 
-       
+
         int mayor = array[0];  
         for (int i = 1; i < array.length; i++) {
             if (array[i] > mayor) {
