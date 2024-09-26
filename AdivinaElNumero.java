@@ -24,5 +24,6 @@ public class AdivinaElNumero {
     
     conteo++;
     System.out.println("¡Correcto! Lo has acertado en el intento nº " + conteo + ".");
+    scanner.close();
 }
 }

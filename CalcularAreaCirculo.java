@@ -15,5 +15,6 @@ public class CalcularAreaCirculo {
       
         // Mostrar el resultado
         System.out.println("El área de un círculo de radio " + radio + " es " + area);
+        sc.close();
     }
 }
