@@ -6,6 +6,7 @@ public class ConvertirCadenaAEntero {
 
         System.out.println("Introduce un número (esto será en tipo de dato string):");
         String numeroEnString = scanner.nextLine();
+        
 
         int numeroConParseInt = Integer.parseInt(numeroEnString);
 
